@@ -30,7 +30,7 @@ nav a {
 }
 
 header {
-    background-image: url(/assets/images/img6.jpg);
+    background-image: url('/assets/images/img6.jpg');
     height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
