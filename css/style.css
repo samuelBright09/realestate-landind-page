@@ -1,5 +1,8 @@
 * {
     margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
 
@@ -153,16 +156,16 @@ input {
 }
 
 .middle-section {
-    background-color: #22242B ;
+    background-color: #22242B;
     width: 90%;
     margin: auto;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 100px;
     padding: 20px;
     border-radius: 20px;
 }
 
-.middle-section h1  {
+.middle-section h1 {
     text-align: center;
     color: white;
     font-size: 50px;
@@ -171,7 +174,7 @@ input {
 }
 
 
-.middle-section p  {
+.middle-section p {
     text-align: center;
     color: white;
     margin-bottom: 20px;
@@ -194,4 +197,30 @@ input {
     color: white;
     border: none;
     border-radius: 10px;
+}
+
+.flex-container2 {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.success {
+    font-size: 60px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #22242B;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 21px;
+    grid-row-gap: 0px;
+    color:white;
+    padding: 20px;
+    line-height: 1.6;
 }
