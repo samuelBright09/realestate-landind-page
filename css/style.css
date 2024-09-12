@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     list-style-type: none;
     text-decoration: none;
     font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -212,8 +213,6 @@ input {
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
     background-color: #22242B;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -221,6 +220,44 @@ input {
     grid-column-gap: 21px;
     grid-row-gap: 0px;
     color:white;
-    padding: 20px;
+    margin-top: 60px;
     line-height: 1.6;
+    padding: 50px;
 }
+
+footer a {
+    color: white;
+}
+
+footer h4 {
+    font-size: 20px;
+}
+
+.hiring {
+    background-color: #c26e33;
+    border: 0;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.hiring a {
+    color: rgb(255, 255, 255);
+}
+
+footer ul {
+    margin-top: 40px;
+    line-height: 2;
+}
+
+.muze-info {
+    margin-right: 20px ;
+    border-right: 2px solid #e9721e;
+    padding: 20px;
+}
+
+.muze-info h4 {
+    color: #e9721e;
+    
+}
+
